@@ -2,8 +2,8 @@
 layout: blog
 title: "Spotlight on SIG etcd"
 slug: sig-etcd-spotlight
-canonicalUrl: https://www.kubernetes.dev/blog/2025/02/05/sig-etcd-spotlight
-date: 2025-02-05
+canonicalUrl: https://www.kubernetes.dev/blog/2025/02/11/sig-etcd-spotlight
+date: 2025-02-11
 author: "Frederico Muñoz (SAS Institute)"
 ---
 
@@ -32,7 +32,7 @@ wonderful journey so far and I’m excited to support our community moving forwa
 
 **Marek:** Hey everyone, I'm Marek, the SIG etcd lead. At Google, I lead the GKE etcd team, ensuring
 a stable and reliable experience for all GKE users. My Kubernetes journey began with [SIG
-Istrumentation](https://github.com/kubernetes/community/tree/master/sig-instrumentation), where I
+Instrumentation](https://github.com/kubernetes/community/tree/master/sig-instrumentation), where I
 created and led the [Kubernetes Structured Logging effort](https://kubernetes.io/blog/2020/09/04/kubernetes-1-19-introducing-structured-logs/).  
 I'm still the main project lead for [Kubernetes Metrics Server](https://kubernetes-sigs.github.io/metrics-server/), 
 providing crucial signals for autoscaling in Kubernetes. I started working on etcd 3 years ago,
@@ -90,7 +90,7 @@ Machinery](https://github.com/kubernetes/community/blob/master/sig-api-machinery
 [SIG Cluster Lifecycle](https://github.com/kubernetes/community/tree/master/sig-cluster-lifecycle), etc. 
 
 This collaboration helps ensure etcd's development aligns with the needs of the wider Kubernetes
-ecosystem. The formation of the [etcd Operator Working Group]/(https://github.com/kubernetes/community/blob/master/wg-etcd-operator/README.md) 
+ecosystem. The formation of the [etcd Operator Working Group](https://github.com/kubernetes/community/blob/master/wg-etcd-operator/README.md) 
 under the joint effort between SIG etcd and SIG Cluster Lifecycle exemplifies this successful
 collaboration, demonstrating a shared commitment to improving etcd's operational aspects within
 Kubernetes.
@@ -99,20 +99,16 @@ Kubernetes.
 community involvement in recent months?**
 
 **James**: Yes -- as showing in our 
-[unique PR author data](https://etcd.devstats.cncf.io/d/23/prs-authors-repository-groups?orgId=1&var-period=m&var-repogroup_name=All&from=now-10y&to=now-38d)
+[unique PR author data](https://etcd.devstats.cncf.io/d/23/prs-authors-repository-groups?orgId=1&var-period=m&var-repogroup_name=All&from=1422748800000&to=1738454399000)
 we recently hit an all time high in March and are trending in a positive direction:
 
-<figure>
-	<img src="stats.png" alt="Unique PR author data stats"></img>
-</figure>
+{{< figure src="stats.png" alt="Unique PR author data stats" >}}
 
 Additionally, looking at our 
-[overall contributions across all etcd project repositories](https://etcd.devstats.cncf.io/d/74/contributions-chart?orgId=1&from=now-10y&to=now-38d&var-period=m&var-metric=contributions&var-repogroup_name=All&var-country_name=All&var-company_name=All&var-company=all) 
+[overall contributions across all etcd project repositories](https://etcd.devstats.cncf.io/d/74/contributions-chart?orgId=1&from=1422748800000&to=1738454399000&var-period=m&var-metric=contributions&var-repogroup_name=All&var-country_name=All&var-company_name=All&var-company=all) 
 we are also observing a positive trend showing a resurgence in etcd project activity:
 
-<figure>
-	<img src="stats2.png" alt="Overall contributions stats"></img>
-</figure>
+{{< figure src="stats2.png" alt="Overall contributions stats" >}}
 
 ## The road ahead
 
@@ -155,9 +151,8 @@ follow discussions on the [etcd-dev mailing list](https://groups.google.com/g/et
 out our [GitHub issues](https://github.com/etcd-io/etcd/issues). We're always looking for people to
 review proposals, test code, and contribute to documentation.
 
-**Wenjia**: I love this question :) There are numerous ways for people
-interested in contributing to SIG etcd to get involved and make a
-difference. Here are some key areas where you can help:
+**Wenjia**: I love this question 😀 . There are numerous ways for people interested in contributing
+to SIG etcd to get involved and make a difference. Here are some key areas where you can help:
 
 **Code Contributions**:
  - _Bug Fixes_: Tackle existing issues in the etcd codebase. Start with issues labeled "good first
